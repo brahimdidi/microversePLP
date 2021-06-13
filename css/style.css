@@ -1,0 +1,55 @@
+#header{
+  font-family: lobster;
+  font-size: 15px;
+  color: #000000;
+  background-color: yellow;
+  align-items: center;
+  position: fixed;
+}
+#header-img{
+  width: 100px;
+  display: flex;
+  border-radius: 90%;
+  position: fixed;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+   
+}
+nav {
+  width:100%;
+  position: fixed;
+}
+.body-page {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form {
+ text-align: center;
+ 
+}
+.video {
+  text-align: center
+}
+.gym-inside {
+  
+height: 600px;
+background-image: url("https://thumbs.dreamstime.com/b/metal-dumbbell-gym-background-d-rendering-78457375.jpg")
+}
+.about-us {
+  height: 400px;
+  background-image: url("https://img.lovepik.com/photo/40138/5520.jpg_wh300.jpg")
+  
+}
+.register-now {
+  height: 500px;
+  background-image:url("https://i.pinimg.com/originals/a0/27/1b/a0271b98d6f69608aedf306ff37ba02e.jpg")
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
